@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+android:background="@color/instagram_red"
+android:gravity="center"
+tools:context="com.example.instagram.Instagram">
+
+<!-- Instagram Title -->
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Instagram"
+    android:textSize="36sp"
+    android:textColor="#FFFFFF"
+    android:fontFamily="sans-serif"
+    android:layout_marginBottom="32dp" />
+
+<!-- Username Field -->
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/instagram_rose"
+        android:hint="Username"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D3D3D3" />
+
+    <EditText
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:padding="12dp"
+    android:background="@color/instagram_rose"
+    android:textColorHint="#D3D3D3"
+    android:textColor="#FFFFFF"
+    android:layout_marginBottom="16dp" />
+
+<!-- Login Button -->
+<Button
+    android:id="@+id/login_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Log In"
+    android:padding="12dp"
+    android:textColor="#FFFFFF"
+    android:backgroundTint="#4CAF50"
+    android:layout_marginBottom="16dp" />
+
+<!-- Forgot password link -->
+<TextView
+    android:id="@+id/forgot_password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Forgot your login details? Get help signing in."
+    android:textColor="#D3D3D3"
+    android:textSize="12sp"
+    android:layout_marginBottom="32dp" />
+
+<!-- Or text -->
+<TextView
+    android:id="@+id/or_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="OR"
+    android:textColor="#FFFFFF"
+    android:textSize="14sp"
+    android:layout_marginBottom="16dp" />
+
+<!-- Facebook login button -->
+<Button
+    android:id="@+id/login_facebook"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Log in with Facebook"
+    android:backgroundTint="#3b5998"
+    android:textColor="#FFFFFF"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp" />
+
+<!-- Sign up text -->
+<TextView
+    android:id="@+id/sign_up"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Don't have an account? Sign up."
+    android:textColor="#FFFFFF"
+    android:textSize="12sp" />
+</LinearLayout>
